@@ -1,31 +1,49 @@
-# 📊 Calculadora de Porcentagem (Python)
+# Percentage Calculator (Python)
 
-Este é um projeto simples, interativo e baseado em terminal: uma **Calculadora de Porcentagem** desenvolvida em Python.
-
----
-
-## ✅ Funcionalidades
-
-- **Aplicar uma porcentagem em um valor:**  
-Calcula o total após aplicar um aumento percentual.
-
-- **Descontar uma porcentagem de um valor:**  
-Calcula o valor final após aplicar um desconto percentual.
-
-- **Descobrir a porcentagem entre dois valores:**  
-Informa qual porcentagem um valor representa em relação a outro (exemplo: descobrir quanto foi de desconto em %).
-
-- **Menu interativo com validação de entradas:**  
-O programa apresenta um menu de fácil navegação e trata entradas inválidas, evitando erros durante a execução.
-
-- **Animação de carregamento:**  
-Pequeno efeito visual usando `time.sleep()` e valores aleatórios para simular um "loading".
+A simple, interactive, terminal-based percentage calculator built with Python.
 
 ---
 
-# 📌Requisitos
-- Python 3.13.5
-- Apenas módulos nativos: time e random
+## Features
 
-# 💻Autor
-- Davi Feitosa Bastos (Dave)
+- **Apply a percentage to a number:**
+  Calculates the total after applying a percentage increase.
+
+- **Discount a percentage from a number:**
+  Calculates the final value after applying a percentage discount.
+
+- **Discover the percentage between two values:**
+  Returns what percentage one value represents of another.
+
+- **Invert a percentage:**
+  Given a number and a known percentage, finds the original total.
+
+- **Modular architecture:**
+  Rewritten with a feature-based module structure and a router pattern.
+
+- **Input validation:**
+  Handles invalid inputs gracefully using `get_int_input` and `get_float_input`.
+
+- **Rich UI:**
+  Terminal formatting powered by the `rich` library.
+
+- **Error logging:**
+  Uses Python's `logging` module to track input errors.
+
+---
+
+## Requirements
+
+- Python 3.12+
+- rich
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Author
+
+Davi Feitosa Bastos (Dave)
